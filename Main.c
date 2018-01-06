@@ -190,7 +190,7 @@ void gameOver_Down()
     Winner();
 }
 
-void gameOver_Diagonal_TopRight_DownLeft()
+void Diagonal_TopR_DownL()
 {
 
 for(int i = temprow+1, j = colum-2; i < temprow+4, j > colum-5; i++, j--)
@@ -211,8 +211,8 @@ for(int i = temprow-1, j = colum; i > temprow-4, j < colum+3; i--, j++)
     Winner();
 }
 
-gameOver_Diagonal_TopRight_DownLeft()
-void Diagonal_TopL_DownR()
+
+void  Diagonal_TopL_DownR()
 {
 
 for(int i = temprow+1, j = colum; i < temprow+4, j < colum+3; i++, j++)

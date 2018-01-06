@@ -11,3 +11,4 @@ void Winner();
 void Diagonal_TopR_DownL();
 void Diagonal_TopL_DownR();
 void Right_Left();
+void gameOver_Down();
